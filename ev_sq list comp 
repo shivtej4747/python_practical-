@@ -1,0 +1,2 @@
+even_sq=[x*x for i in range(1,11) if x%2==0]
+print(even_sq)
