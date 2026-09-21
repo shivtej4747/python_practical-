@@ -1,0 +1,3 @@
+pr={'cpp':18,'python':25,'math':23,'web':26}
+pract_mark={sub:mark for sub,mark in pr.items()       if mark>=12}
+print(pract_mark)
