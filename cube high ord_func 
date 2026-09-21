@@ -1,0 +1,5 @@
+def cube(num):
+    return num**3
+def cube1(func,x):
+    return func(x)
+print(cube1(cube,3))
