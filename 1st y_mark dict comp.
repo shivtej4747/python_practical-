@@ -1,0 +1,3 @@
+marks={'cpp':26,'py':20,'math':22,'SE':23,'Eng':23,'EVS':28}
+fy_marks={sub:mark for sub,mark in marks.items() if mark>=12}
+print(fy_marks)
