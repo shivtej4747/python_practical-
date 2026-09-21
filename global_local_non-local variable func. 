@@ -1,0 +1,27 @@
+#global function 
+
+num=9
+def Pno():
+    global num
+    num=10
+    print(num)
+Pno()
+print(num)
+
+#local Var in function 
+
+def Pno():
+    num=10
+    print(num)
+Pno()
+
+#nonlocal var Function
+
+def A():
+    msg="GFCCT"
+    def B():
+        nonlocal msg
+        msg="GFCCT"
+    B()
+    print(msg)
+A()
