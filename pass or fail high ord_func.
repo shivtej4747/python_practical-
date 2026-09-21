@@ -1,0 +1,9 @@
+def result(marks):
+    if marks>=40:
+    return "pass"
+    else:
+        return "fail"
+def check(func,v):
+    return func(v)
+print(check(result,42))
+print(check(result,35))
