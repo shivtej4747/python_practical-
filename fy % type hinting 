@@ -1,0 +1,5 @@
+r:float=80.00
+n:str='BCS-I'
+def per()->str:
+    return f'my{n} year percentage is'f'{r}'
+print(per())
