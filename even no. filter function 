@@ -1,0 +1,3 @@
+l=[5,10,15,20,25,30,35,40,45,50]
+ev=filter(lambda a:a%2==0,l)
+print(list(ev))
