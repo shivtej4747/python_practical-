@@ -1,0 +1,7 @@
+l=[1,2,3,4,5,6,7,8,9,10]
+t1=map(lambda a:a*5,l)
+t2=filter(lambda a:a%2!=0,t1)
+sq=map(lambda a:a*a,t2)
+from functools import reduce
+odd=reduce(lambda x,y:x+y,sq)
+print(odd)
