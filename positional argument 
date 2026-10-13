@@ -1,0 +1,9 @@
+r=1
+def m(*a):
+    print(type(a))
+    global r
+    for i in a:
+    r=r+1
+    return r
+print(m(24,25,26,27,28,29,30))
+    
