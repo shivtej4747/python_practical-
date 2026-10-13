@@ -1,4 +1,4 @@
 import itertools 
 l=['cpp','python','java','dbms']
-p=itertools.combinations(1,2)
+p=itertools.combination(l,2)
 print(list(p))
