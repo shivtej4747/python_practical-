@@ -1,0 +1,18 @@
+class A:
+    def__init__(self,m,n):
+        self.m=m
+        self.n=n
+    def__str__(self):
+        return f"your total marks of 1st year
+        is {self.n + o.n}"
+    def__add__(self,o):
+        return self.n + o.n
+    def__len__(self):
+        return len(str(self,m))
+    def__repr__(self):
+        return f"{self.m}{self.n}"
+o=A("1st sem",80)
+o2=A("2nd sem",80)
+print(o)
+print(o+o2)
+print(repr(o2))
