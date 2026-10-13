@@ -1,0 +1,5 @@
+import itertools 
+r=itertools.cycle(['gfcct','nursing','BBA'])
+print(next(r))
+print(next(r))
+print(next(r))
