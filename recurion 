@@ -1,0 +1,5 @@
+def m(n):
+    if n>0:
+        print("last year percentage is=",80)
+        return m(n-1)
+m(3)
