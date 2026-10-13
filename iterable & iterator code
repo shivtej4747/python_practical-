@@ -1,0 +1,5 @@
+pr={'python':25,'cpp':26,'maths':24,'html':28}
+l=iter(pr.items())
+print(next(l))
+print(next(l))
+print(next(l))
