@@ -1,0 +1,6 @@
+import itertools 
+def add(p,q,r,s,t)
+    return p+q+r+s+t
+l=[(1,2,3,4,5),(1,0,2,0,3),(6,7,8,9,0)]
+r=itertools.starmap(add,l)
+print(list(r))
