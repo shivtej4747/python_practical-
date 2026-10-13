@@ -1,0 +1,4 @@
+import itertools 
+l=[20,40,60,80,100]
+r=itertools.filterfalse(lambda x:x>60,l)
+print(list(r))
