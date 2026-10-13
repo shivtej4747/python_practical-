@@ -1,0 +1,8 @@
+import itertools 
+d=(["gfcct"])
+a,b,c,m,s=itertools.tee(d,5)
+print(list(a))
+print(list(b))
+print(list(c))
+print(list(m))
+print(list(s))
