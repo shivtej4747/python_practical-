@@ -1,0 +1,4 @@
+import itertools 
+l=[5,10,15,20,25,30,35,40,45,,50]
+r=itertools.takewhile(lambda x:x<15,l)
+print(list(r))
