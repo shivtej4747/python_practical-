@@ -1,0 +1,5 @@
+import itertools 
+gmail=["sm09@gmail.com","sj04@gmail.com"]
+instagram=["xyz-01","abc-21"]
+p=list(itertools.product(gmail,instagram)
+print(p)
