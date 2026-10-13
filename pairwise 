@@ -1,0 +1,4 @@
+import itertools 
+s=range(1,50)
+r=itertools.pairwise(s)
+print(list(r))
