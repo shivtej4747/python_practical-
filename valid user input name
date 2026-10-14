@@ -1,0 +1,7 @@
+import re 
+name=input("Enter your name")
+pattern=r"^[A-Za-Z]+$"
+if re.match(pattern,name):
+    print("valid name")
+else:
+    print("invalid name")
