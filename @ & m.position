@@ -1,0 +1,4 @@
+string:"gfcct@gmail.com"
+print("string",s)
+print("@ position:",s.index('@'))
+print("m position:",s.index('m'))
