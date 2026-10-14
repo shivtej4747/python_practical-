@@ -1,0 +1,8 @@
+import re
+text="maths:45,python:47,html:39,cpp:46"
+pattern=r"python:([0-9])"
+result=re.search(pattern,text)
+if result:
+    print("python marks:",result.group(1))
+else:
+    print("python marks not found")
