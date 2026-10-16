@@ -1,2 +1,2 @@
-sq=[x**2 for x in range(s)]
+sq=[x**2 for x in range(5)]
 print(sq)
