@@ -1,0 +1,28 @@
+1)cycle
+
+import itertools 
+colors=["red","green","blue"]
+cy=itertools.cycle(colors)
+for in range(6):
+    print(next(cy))
+
+2) islice
+
+from itertools import islice
+s=r(10,20,30,40,50,60)
+r=list(islice(s,1,4))
+print(r)
+ 
+3) pairwise 
+
+from itertools import pairwise 
+n=[1,2,3,4]
+print(list(pairwise(n)))
+
+4) tee
+
+import itertools 
+d=[1,,2,3,4]
+a,b=itertools.tee(d,2)
+print(list(a))
+print(list(b))
