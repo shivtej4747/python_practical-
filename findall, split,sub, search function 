@@ -1,0 +1,28 @@
+1) re.findall
+
+import re 
+m="shivMadane123"
+d=re.findall(r'\d+',m)
+print(d)
+
+2) re.sub
+
+import re 
+text="I like apples"
+s=re.sub(r"apples","banana",text)
+print(s)
+
+3)re.split
+
+import re
+text='apple,banana;cherry orange"
+fruits=re.split(r'[;,]',text)
+print(fruits)
+
+4) search 
+
+import re 
+t="I have 2 apples"
+m=re.search(r"\d+",t)
+if m:
+    print(m.group())
