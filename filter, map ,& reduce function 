@@ -1,0 +1,16 @@
+1)filter 
+
+e=[1,2,3,4,5] 
+l=list(filter(lambda x:x%2==0,1))
+print("result is:",l)
+
+2)map
+
+double=list(map(lambda x:x*2,1))
+print("result:",double)
+ 
+3)reduce 
+
+from functools import reduce 
+r=reduce(lambda x,y:x*y,l)
+print(r)
