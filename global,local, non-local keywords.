@@ -1,0 +1,18 @@
+x=5
+def modify_global():
+    global x
+    x=10
+def local():
+    x=20
+    print(x)
+def outer():
+    x=30
+    def inner():
+        nonlocal x
+        x=40
+    inner()
+    print(x)
+modify_global()
+print(x)
+local()
+outer()
