@@ -1,0 +1,5 @@
+import json 
+data={"Name":"Ajit","Age":19,"skills":   
+     ["python","Html"]}
+jstr=json.dumps(data)
+print(jstr)
