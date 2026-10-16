@@ -26,3 +26,11 @@ d=[1,,2,3,4]
 a,b=itertools.tee(d,2)
 print(list(a))
 print(list(b))
+
+5) chain 
+
+from itertools import chain
+list1=[1,2,3]
+list2=['a','b','c']
+result=chain(list1,list2)
+print(list(result))
