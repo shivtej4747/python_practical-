@@ -1,0 +1,4 @@
+import itertools 
+l=[10,20,30,40,50,60]
+r=itertools.dropwhile(lambda x:x<40,l)
+print(list(r))
