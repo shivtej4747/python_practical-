@@ -1,0 +1,6 @@
+def s(**k):
+    print(type(k))
+    for k,v in k.items():
+        print(f"{k}{v}")
+s=(cpp:26,python:25,maths:24,html:27,EVs:28,
+   yoga:28)
