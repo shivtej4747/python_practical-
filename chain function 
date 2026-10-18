@@ -1,0 +1,7 @@
+L1={'python':24,'engilsh':26,'cpp':12,'iks':21,
+'COI':28,'OS':23,'Html':24}
+L2={{'python':23,'engilsh':22,'cpp':26,'evs':28,'yoga':28,'se':22,'web designing':18}
+D={i:i for i in L1.items()}
+D2={i:i for i in L2.items()}
+a=itertools.chain(D,D2)
+print(list(a))
