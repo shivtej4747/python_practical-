@@ -1,4 +1,4 @@
-import itertools 
+
 import itertools 
 l={'python':26,'eng':24,'cpp':26,'IkS':25,
    'maths':28,'yoga':28,'html':26,'EVS':29}
